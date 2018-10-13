@@ -1,7 +1,7 @@
 # Tech Karo - Test#2
 ### The Message Send App
 
-# here is my work. https://raziaalee.github.io/final-test1/
+
 
 | **Powered By** Tech Karo  |
 

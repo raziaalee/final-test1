@@ -1,0 +1,92 @@
+.key {
+    font-family: 'Arvo', serif;
+}
+.keyboard{
+    height: 350px;
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    /* min-width: 300px; */
+    min-width: 452px;
+}
+hr{
+    color: tan;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 40px;
+    font-family: 'Arvo', serif;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: center;
+}
+p{
+    background-image: url(images/keyboard-key.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+.space{
+    background-image: url(images/space-bar-key.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 90px;
+}
+
+.first-sec{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+
+}
+.second-sec{
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+}
+.third-sec{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+
+}
+ .forth-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+} 
+body{
+    background-color:#17a2b873;
+}
+
+@media screen and (max-width:500px){
+    body{
+        /* width: 350px; */
+    }
+}
